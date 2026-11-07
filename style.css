@@ -1,0 +1,33 @@
+nav img{width: 300px;}
+nav a{
+    width: 200px;
+    height: 50px;
+    border: 2px solid black;
+    padding: 5px;
+    margin: 10px;
+    font-style: normal;
+    font-size: 24px;
+    text-decoration: none;
+    background-color:rgb(235, 202, 14);
+    color: green;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:rgb(252, 252, 252);
+}
+nav li{width: 300px;
+list-style: none;}
+
+main div img{
+    width: 1000px;
+}
+main {
+    display: flex;
+}
+main div{
+    width: 1fr;
+}
